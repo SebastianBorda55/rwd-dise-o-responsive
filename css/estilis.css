@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Righteous', cursive;
+font-size: 1.6rem;
+}
+
+img {
+ max-width: 100%;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+.contenedor{
+  max-width: 120rem;
+  margin: 0 auto;
+  background-color: greenyellow;
+}
+
+.entrada a{
+  display: inline-block;
+  background-color: #2196f3;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.conBox{
+  width: 60rem;
+  height: 60rem;
+}

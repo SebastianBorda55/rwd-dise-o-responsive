@@ -9,6 +9,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-family: 'Righteous', cursive;
 font-size: 1.6rem;
+background: rgb(183, 230, 236);
 }
 
 img {
@@ -27,12 +28,44 @@ h1{
 
 .entrada a{
   display: inline-block;
-  background-color: #2196f3;
+  background-color: #f6caf6;
   color: white;
   padding: 1rem 2rem;
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+@media (min-width: 480px){
+  body{
+      background-color:rgb(233, 232, 176);
+  }
+  .entrada img{
+      display: none;
+  }
+}
+@media (min-width: 768px){
+  body{
+      background-color: rgb(182, 225, 225);
+  }
+  
+}
+@media (min-width: 1140px){
+  body{
+      background-color: #aca6d5;
+  }
+}
+@media (min-width: 1400px){
+  body{
+      background-color: #eb8df6;
+      
+  }
+  .entrada img{
+      display: inline;
+  }
+  .contenedor{
+      background-color: #3f3835;
+  }
 }
 
 .conBox{
